@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  --font-sans: 'Space Grotesk', sans-serif;
+
   --color-ghost-white-50: #fcfbfc;
   --color-ghost-white-100: #f8f7f9;
   --color-ghost-white-200: #f5f3f6;
