@@ -69,3 +69,9 @@
   --color-secondary: var(--color-indigo-velvet-500);
   --color-accent: var(--color-hyper-magenta-500);
 }
+
+@layer utilities {
+  .glow-accent {
+    filter: drop-shadow(0 0 8px color-mix(in srgb, var(--color-accent) 40%, transparent));
+  }
+}
