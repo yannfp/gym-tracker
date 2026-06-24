@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ghost-white-50: #f2f0f4;
+  --color-ghost-white-100: #e6e2e9;
+  --color-ghost-white-200: #ccc4d4;
+  --color-ghost-white-300: #b3a7be;
+  --color-ghost-white-400: #998aa8;
+  --color-ghost-white-500: #7f6c93;
+  --color-ghost-white-600: #665775;
+  --color-ghost-white-700: #4c4158;
+  --color-ghost-white-800: #332b3b;
+  --color-ghost-white-900: #19161d;
+  --color-ghost-white-950: #120f15;
+
+  --color-coffee-bean-50: #f3eef7;
+  --color-coffee-bean-100: #e8ddee;
+  --color-coffee-bean-200: #d1bade;
+  --color-coffee-bean-300: #ba98cd;
+  --color-coffee-bean-400: #a375bd;
+  --color-coffee-bean-500: #8b53ac;
+  --color-coffee-bean-600: #70428a;
+  --color-coffee-bean-700: #543267;
+  --color-coffee-bean-800: #382145;
+  --color-coffee-bean-900: #1c1122;
+  --color-coffee-bean-950: #140c18;
+
+  --color-bright-lavender-50: #f4ecf9;
+  --color-bright-lavender-100: #e8d8f3;
+  --color-bright-lavender-200: #d1b1e7;
+  --color-bright-lavender-300: #ba8bda;
+  --color-bright-lavender-400: #a464ce;
+  --color-bright-lavender-500: #8d3dc2;
+  --color-bright-lavender-600: #71319b;
+  --color-bright-lavender-700: #542574;
+  --color-bright-lavender-800: #38184e;
+  --color-bright-lavender-900: #1c0c27;
+  --color-bright-lavender-950: #14091b;
+
+  --color-indigo-velvet-50: #f4e9fb;
+  --color-indigo-velvet-100: #e9d3f8;
+  --color-indigo-velvet-200: #d3a8f0;
+  --color-indigo-velvet-300: #bd7ce9;
+  --color-indigo-velvet-400: #a751e1;
+  --color-indigo-velvet-500: #9225da;
+  --color-indigo-velvet-600: #741eae;
+  --color-indigo-velvet-700: #571683;
+  --color-indigo-velvet-800: #3a0f57;
+  --color-indigo-velvet-900: #1d072c;
+  --color-indigo-velvet-950: #14051f;
+
+  --color-hyper-magenta-50: #f5e7fe;
+  --color-hyper-magenta-100: #eacffc;
+  --color-hyper-magenta-200: #d59efa;
+  --color-hyper-magenta-300: #c06ef7;
+  --color-hyper-magenta-400: #ab3df5;
+  --color-hyper-magenta-500: #960df2;
+  --color-hyper-magenta-600: #780ac2;
+  --color-hyper-magenta-700: #5a0891;
+  --color-hyper-magenta-800: #3c0561;
+  --color-hyper-magenta-900: #1e0330;
+  --color-hyper-magenta-950: #150222;
+}
