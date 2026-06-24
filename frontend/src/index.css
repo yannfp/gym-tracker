@@ -60,4 +60,10 @@
   --color-hyper-magenta-800: #3c0561;
   --color-hyper-magenta-900: #1e0330;
   --color-hyper-magenta-950: #150222;
+
+  --color-text: var(--color-ghost-white-500);
+  --color-background: var(--color-coffee-bean-550);
+  --color-primary: var(--color-bright-lavender-500);
+  --color-secondary: var(--color-indigo-velvet-500);
+  --color-accent: var(--color-hyper-magenta-500);
 }
