@@ -4,11 +4,11 @@ import "../index.css"
 
 import NavigationBar from "../components/NavigationBar";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children, className }: { children: React.ReactNode, className: String }) {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background text-text">
       <NavigationBar />
-      <main className="flex flex-col px-5 py-8 text-text">
+      <main className={`flex flex-col px-5 py-8 ${className}`}>
         {children}
       </main>
     </div>
