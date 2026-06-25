@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background">
       <NavigationBar />
-      <main className="flex flex-col p-4 text-text">
+      <main className="flex flex-col px-5 py-8 text-text">
         {children}
       </main>
     </div>
