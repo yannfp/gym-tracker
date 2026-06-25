@@ -4,7 +4,7 @@ interface MonthGridProps {
   activeDays: number[],
 }
 
-export default function MonthGrid({ monthName, totalDays, activeDays }: MonthGridProps) {
+export function MonthGrid({ monthName, totalDays, activeDays }: MonthGridProps) {
   const days = Array.from({ length: totalDays }, (_, i) => i + 1);
 
   return (
@@ -29,6 +29,32 @@ export default function MonthGrid({ monthName, totalDays, activeDays }: MonthGri
           );
         })}
       </div>
+    </div>
+  );
+}
+
+export function NumberedMonthGrid({ monthName, totalDays, activeDays }: MonthGridProps) {
+  const days = Array.from({ length: totalDays }, (_, i) => i + 1);
+
+
+  return (
+    <div className="grid grid-cols-7 gap-3 justify-items-center">
+      {days.map((day) => {
+        const isActive = activeDays.includes(day);
+
+        return (
+          <div
+            key={day}
+            className={`w-7 h-7 rounded-full transition-all duration-300 flex items-center justify-center ${isActive
+              ? "bg-accent/90 text-text scale-110"
+              : "bg-text/20 text-text/30"
+              }`}
+            title={`${monthName} ${day}`}
+          >
+            {day}
+          </div>
+        );
+      })}
     </div>
   );
 }
