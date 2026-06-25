@@ -2,7 +2,7 @@ import { Pen } from "lucide-react";
 
 import { PicturePlaceholder } from "./PicturePlaceholder";
 
-export function ProfileHeader() {
+export function ProfilePageHeader() {
   return (
     <div className="flex flex-col gap-2 p-3 bg-background-secondary rounded-2xl">
       <div className="flex flex-row gap-3 items-center">
