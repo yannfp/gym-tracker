@@ -65,6 +65,7 @@
 
   --color-text: var(--color-ghost-white-500);
   --color-background: var(--color-coffee-bean-500);
+  --color-background-secondary: color-mix(in srgb, var(--color-coffee-bean-400) 20%, transparent);
   --color-primary: var(--color-bright-lavender-500);
   --color-secondary: var(--color-indigo-velvet-500);
   --color-accent: var(--color-hyper-magenta-500);
