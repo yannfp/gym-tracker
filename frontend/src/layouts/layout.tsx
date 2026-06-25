@@ -4,11 +4,16 @@ import "../index.css"
 
 import NavigationBar from "../components/NavigationBar";
 
-export default function Layout({ children, className }: { children: React.ReactNode, className: String }) {
+interface LayoutProps {
+  children: React.ReactNode,
+  className?: string,
+}
+
+export default function Layout({ children, className }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-background text-text">
+    <div className="h-screen w-full flex flex-col bg-background text-text overflow-hidden">
       <NavigationBar />
-      <main className={`flex flex-col px-5 py-8 ${className}`}>
+      <main className={`flex-1 overflow-y-auto flex flex-col px-5 pt-8 pb-24 scroll-smooth ${className}`}>
         {children}
       </main>
     </div>
